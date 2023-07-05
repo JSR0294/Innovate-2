@@ -1,0 +1,742 @@
+/* ==================================================================
+Common CSS
+================================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+ul,
+li,
+a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.primary_color{
+    color: #EFF4FA;
+}
+
+.font-ops{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-pap{
+    font-family: 'Paprika', cursive;
+}
+
+.font-nun{
+    font-family: 'Nunito', sans-serif;
+}
+
+.w-r{
+    font-weight: 400;
+}
+
+.w-m{
+    font-weight: 500;
+}
+
+.w-sb{
+    font-weight: 600;
+}
+
+.w-b{
+    font-weight: 700;
+}
+
+.w-eb{
+    font-weight: 800;
+}
+
+.font_size-16{
+    font-size: 16px;
+}
+
+.font_size-18{
+    font-size: 18px;
+}
+
+.font_size-20{
+    font-size: 20px;
+}
+
+.font_size-24{
+    font-size: 24px;
+}
+
+.font_size-25{
+    font-size: 25px;
+}
+
+.font_size-30{
+    font-size: 30px;
+}
+
+.font_size-36{
+    font-size: 36px;
+}
+
+.font_size-48{
+    font-size: 48px;
+}
+
+.font_size-64{
+    font-size: 64px;
+}
+
+.font_size-84{
+    font-size: 84px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 100px;
+    background: #1BBF00;
+    padding: 14px 28px;
+}
+
+.button a{
+    line-height: 24px;
+}
+
+.button_border{
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    padding: 14px 28px;
+}
+
+.button_border a{
+    line-height: 24px;
+}
+
+.half-circle{
+    display: inline-block;
+    opacity: 0.30000001192092896;
+    background: #1BBF00;
+    border-radius: 0 150px 150px 0;
+    width: 28px;
+    height: 40px;
+    -webkit-border-radius: 0 150px 150px 0;
+    -moz-border-radius: 0 150px 150px 0;
+    -ms-border-radius: 0 150px 150px 0;
+    -o-border-radius: 0 150px 150px 0;
+}
+
+.read_more{
+    position: relative;
+    right: 10px;
+}
+
+.read_more a{
+    /* display: inline-block; */
+    position: relative;
+    left: 18px;
+    bottom: 14px;
+    line-height: 24px;
+    color: #141135;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Navbar CSS
+================================================================== */
+
+.nav{
+    background-color: rgba(22, 12, 109, 0.5);
+    padding: 18px 0;
+    position: absolute !important;
+    width: 100%;
+}
+
+.nav ul{
+    column-gap: 40px;
+}
+
+.nav ul li a{
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.nav ul li a:hover{
+    color: #1BBF00 !important;
+}
+
+.nav .button{
+    margin-left: 130px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Banner CSS
+================================================================== */
+
+.banner{
+    background: url(../img/bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 230px 0;
+}
+
+.banner .banner_content{
+    text-align: center;
+}
+
+.banner .banner_content h1{
+    line-height: 100px;
+}
+
+.banner .banner_content p{
+    line-height: 40px;
+    width: 715px;
+    margin: 20px auto;
+}
+
+.banner .banner_content .buttons{
+    justify-content: center;
+    column-gap: 30px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Gallery CSS
+================================================================== */
+
+.gallery{
+    background: url(../img/2nd_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery .gallery_img{
+    justify-content: space-between;
+}
+
+.gallery .gallery_img .img img{
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+}
+
+.gallery .gallery_content{
+    justify-content: space-between;
+    padding: 200px 0 100px 0;
+    text-align: center;
+}
+
+.gallery .gallery_content .line{
+    border: 1px solid #4F585F;
+}
+
+.gallery .gallery_content .breif h3{
+    color: #1BBF00;
+    line-height: 68px;
+}
+
+.gallery .gallery_content .breif h4{
+    color: #141135;
+    line-height: 40px;
+    margin-top: 24px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+About CSS
+================================================================== */
+
+.about{
+    background: url(../img/3rd_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.about .custom_gap{
+    justify-content: space-between;
+}
+
+.about .about_slider_content{
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.about .about_slider_content:hover{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.about .about_slider_content .slider_flex{
+    column-gap: 20px;
+    padding: 30px 30px 20px;
+}
+
+.about .about_slider_content .slider_flex h5{
+    width: 390px;
+    color: #726E9E;
+    line-height: 30px;
+}
+
+.about .about_content h2{
+    color: #141135;
+}
+
+.about .about_content p{
+    width: 395px;
+    color: #726E9E;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Service CSS
+================================================================== */
+
+.service{
+    background-color: #F6F5FF;
+}
+
+.service .service_content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service .service_content .service_flex_cards{
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.service .service_content .service_flex_cards .service_card{
+    width: 400px;
+}
+
+.service .service_card_heading h2{
+    color: #141135;
+}
+
+.service .service_card_heading p{
+    width: 362px;
+    color: #6C7D93;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.service .service_card_content{
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.service .service_card_content:hover{
+    background: #6B62C5;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.10);
+}
+
+.service .service_card_content:hover .config{
+    color: #FAFAFE;
+}
+
+.service .service_card_content h3{
+    color: #141135;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-top: 32px;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.service .service_card_content p{
+    color: #6C7D93;
+    line-height: 30px;
+    margin: 20px 0;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Portfolio CSS
+================================================================== */
+
+.portfolio{
+    background: url(../img/5th_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.portfolio .portfolio_heading{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.portfolio_heading h2{
+    color: #141135;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.portfolio_heading p{
+    color: #726E9E;
+    line-height: 30px;
+    margin: auto;
+    width: 558px;
+}
+
+.portfolio_content .portfolio_left_part{
+    margin-top: 70px;
+}
+
+.portfolio_left_part .com_ana{
+    column-gap: 35px;
+    margin-bottom: 50px;
+}
+
+.com_ana h3{
+    color: #141135;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.com_ana p{
+    color: #726E9E;
+    line-height: 30px;
+    width: 430px;
+}
+
+.portfolio_left_part .str_res{
+    column-gap: 35px;
+}
+
+.str_res h3{
+    color: #141135;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.str_res p{
+    color: #726E9E;
+    line-height: 30px;
+    width: 430px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Price CSS
+================================================================== */
+
+.price{
+    background: #F9F9FB;
+    padding: 100px 0;
+}
+
+.price .price_heading h2{
+    color: #141135;
+    text-align: center;
+}
+
+.price .price_cards{
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.price .cards{
+    width: 370px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    text-align: center;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.cards:hover{
+    background-color: #6B62C5;
+}
+
+.cards:hover .config{
+    color: #FAFAFE;
+}
+
+.price .cards .card_content{
+    padding: 60px;
+}
+
+.card_content h4{
+    color: #141135;
+    line-height: 36px;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.card_content h3{
+    color: #1BBF00;
+    line-height: 50px;
+    margin-bottom: 10px;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+.card_content p{
+    color: #726E9E;
+    line-height: 30px;
+    transition: .03s;
+    -webkit-transition: .03s;
+    -moz-transition: .03s;
+    -ms-transition: .03s;
+    -o-transition: .03s;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Review CSS
+================================================================== */
+
+.review{
+    background-color: #F8F8FF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.review .review_heading{
+    margin-bottom: 150px;
+}
+
+.review .review_heading h2{
+    color: #141135;
+}
+
+.client_review{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.30);
+}
+
+.client_review .client_info{
+    position: relative;
+    bottom: 90px;
+}
+
+.client_info .client_star{
+    color: #FF7628;
+    position: relative;
+    left: 18px;
+}
+
+.client_review .review_content{
+    padding: 0px 160px 56px 160px;
+}
+
+.review .review_content p{
+    color: #726E9E;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+
+.review .review_content h4{
+    color: #141135;
+    line-height: 40px;
+}
+
+.review .review_content h5{
+    color: #726E9E;
+    line-height: 25px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Like CSS
+================================================================== */
+
+.like{
+    background: url(../img/8th_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.part{
+    margin-bottom: 60px;
+}
+
+.part .like_heading h2{
+    color: #141135;
+    line-height: 65px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.part .like_img{
+    text-align: center;
+}
+
+.part .like_img img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.part .custom_margin{
+    margin-top: 128px;
+}
+
+.like_post_content .client_post_info{
+    column-gap: 28px;
+}
+
+.client_post_info h5{
+    color: #1BBF00;
+    line-height: 24px
+}
+
+.client_post_info h6{
+    color: #726E9E;
+    line-height: 24px;
+}
+
+.client_post_info h6 span{
+    margin-right: 8px;
+}
+
+.like_post_content h3{
+    color: #141135;
+    line-height: 50px;
+    margin: 16px 0;
+}
+
+.read_more {
+	position: relative;
+	right: 16px;
+}
+
+/* ==================================================================
+================================================================== */
+
+/* ==================================================================
+Footer CSS
+================================================================== */
+
+footer{
+    background-color: #48409C;
+    padding: 140px 0 60px 0;
+}
+
+.footer_content p{
+    width: 448px;
+    color: #FEFEFE;
+    line-height: 180%;
+    margin-top: 45px;
+}
+
+footer .footer_menu h5{
+    color: #FEFEFE;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+footer .footer_menu ul li{
+    margin-bottom: 15px;
+}
+
+footer .footer_menu ul li a{
+    color: #FEFEFE;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+footer .copyright .copyright_content{
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+footer .copyright .copyright_content p{
+    color: #FEFEFE;
+}
+
+footer .copyright .copyright_content .group{
+    column-gap: 60px;
+}
+
+/* ==================================================================
+================================================================== */
